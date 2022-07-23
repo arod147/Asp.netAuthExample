@@ -86,7 +86,16 @@
     <img width="949" alt="EmailManager" src="https://user-images.githubusercontent.com/39133396/180591045-f6eba677-9b09-41ce-b3cf-9c4101739c84.png">
     <br />
 <img width="949" alt="Luanch" src="https://user-images.githubusercontent.com/39133396/180591314-d6f46dc8-3b1f-4145-9b7d-15a4b78434bf.png">
-
   </ol>
-  
+  <hr />
+    <h1>Your done!</h1>
+    <p>Run the application and test its features you should be able to to the following</p>
+    <ul>
+      <li>Login and see your username on the home page.</li>
+      <li>Register a new user which will be added to your DB</li>
+      <li>If the application is closed the session is cleared</li>
+      <li>Log out, which will clear the session and cookies</li>
+      <li>See a list of all you users registerd in your DB on the MyUsers page</li>
+      <li>Reset your password for a user. This feature will send a email with a link to the email address of the provided username. Will use redis to store a token which will be used to validate the request. This token is ony valid for 3 days. With a valid token we can then update the user password in our DB.</li>
+    </ul>
 </div>
