@@ -99,4 +99,6 @@
       <li>See a list of all you users registerd in your DB on the MyUsers page</li>
       <li>Reset your password for a user. This feature will send a email with a link to the email address of the provided username. Will use redis to store a token which will be used to validate the request. This token is ony valid for 3 days. With a valid token we can then update the user password in our DB.</li>
     </ul>
+    
+    <p>If you have any trouble setting up don't hesitate to message me but I encourage you to try and figure it out if your learning. Running into errors and making mistakes is the best way to learn programming.</p>
 </div>
