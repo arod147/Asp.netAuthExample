@@ -51,6 +51,6 @@
   <hr />
   <h3>Step 2</h3>
   <p>Make sure you have all these NuGet packages installed.</p>
-  ![](Image/NuGetPackages)
+  <img src="Images/NuGetPackeges"/>
 
 </div>
