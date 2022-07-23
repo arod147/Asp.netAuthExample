@@ -84,7 +84,7 @@
     <li>Go to your appsettings.json file and change the email configuration options</li>
     <img width="934" alt="Emailconfi" src="https://user-images.githubusercontent.com/39133396/180591234-6db4ec8e-5b98-4d14-ad2f-1356740dfc10.png">
     <li>Then navigate to the EmailManager class located in the data folder and change the from email address to yours and the link variable port number to the port you will be running the app on. This can be found in the launch setting inside the properties folder.</li>
-    <img width="949" alt="EmailManager" src="https://user-images.githubusercontent.com/39133396/180591045-f6eba677-9b09-41ce-b3cf-9c4101739c84.png">
+    <img width="949" alt="EmailManager" src="https://user-images.githubusercontent.com/39133396/180621180-42afdd3f-8029-4886-ae65-7c54715d8308.png">
     <br />
 <img width="949" alt="Luanch" src="https://user-images.githubusercontent.com/39133396/180591314-d6f46dc8-3b1f-4145-9b7d-15a4b78434bf.png">
   </ol>
