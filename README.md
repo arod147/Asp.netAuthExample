@@ -48,6 +48,8 @@
   <h1>Steps</h1>
   <h3>Step 1</h3>
   <p>Clone this repository into your Visual Studio IDE</p>
+  <img width="755" alt="git" src="https://user-images.githubusercontent.com/39133396/180621889-8851c289-243b-441f-b69f-e4ec0463504a.png">
+  <img width="743" alt="repo" src="https://user-images.githubusercontent.com/39133396/180621894-5b0f2383-2632-4d69-8b17-aade88f4b732.png">
   <hr />
   <h3>Step 2</h3>
   <p>Make sure you have all these NuGet packages installed.</p>
