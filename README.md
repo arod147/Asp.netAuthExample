@@ -6,7 +6,7 @@
     <li>SSMS (SQL Server Management Studio)</li>
     <li>Session cookies</li>
     <li>Redis</li>
-    <li>Entity Frame work</li>
+    <li>Entity Framework</li>
     <li>ASP.net MVC</li>
     <li>C#</li>
   </ul>
