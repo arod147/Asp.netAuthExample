@@ -43,7 +43,7 @@
     <li>How session cookies work</li>
     <a href="https://docs.microsoft.com/en-us/aspnet/core/fundamentals/app-state?view=aspnetcore-6.0">Session and state management in ASP.NET</a>
   </ul>
-  <p>If you dont meet the above requirments no worries I have provided some links to help you get started. I know it might seem like a lot but trust me when I saw this are very basic topics. Researching is a big part of programming and getting used to and learning how to do this is a key skill to have. :) </p>
+  <p>If you dont meet the above requirments no worries I have provided some links to help you get started. I know it might seem like a lot but trust me when I say these are very basic topics. Researching is a big part of programming and getting used to that and learning how to do this is a key skill to have. :) </p>
   <hr />
   <h1>Steps</h1>
   <h3>Step 1</h3>
@@ -51,6 +51,42 @@
   <hr />
   <h3>Step 2</h3>
   <p>Make sure you have all these NuGet packages installed.</p>
-  <img src="Images/NuGetPackeges"/>
+  <img width="459" alt="NuGetPackeges" src="https://user-images.githubusercontent.com/39133396/180591148-f8efef97-52ab-44a6-a46a-f67753f41f24.png">
+  <hr />
+  <h3>Step 3</h3>
+  <p>Now we need to change one thing to get our DB connected. After we will create our database and table</p>
+  <ol>
+    <li>First lets change our connection string to match your sql server. I just use my local machine to do this. You will change this in the appsetting.json file</li>
+    <img width="968" alt="ConnectionString" src="https://user-images.githubusercontent.com/39133396/180590415-7cda17c1-daf6-4afe-8f21-7818b6541879.png">
+    <li>Next were going to need to use migrations to create our DB and table so lets navigate to the NuGet package console.</li>
+    <img width="733" alt="console" src="https://user-images.githubusercontent.com/39133396/180590433-77c6e0ad-830e-449a-8d9e-47a1b2c83320.png">
+    <li>Navigate to project folder using this command cd UserAuthExample </li>
+    <img width="745" alt="cd" src="https://user-images.githubusercontent.com/39133396/180590445-c2791d36-26f9-4cd4-aaf4-0425fcfd75d5.png">
+    <li>Create migrations folder and file using this command dotnet ef migrations add User</li>
+    <img width="931" alt="mig" src="https://user-images.githubusercontent.com/39133396/180590881-0caccb74-c10c-47ba-8e4b-ef2d3008b08e.png">
+    <li>Create database and table using this command dotnet ef database update</li>
+    <img width="771" alt="db" src="https://user-images.githubusercontent.com/39133396/180590524-452eb55f-bc27-4da9-88ea-6e44302c15c2.png">
+    <img width="646" alt="ssms" src="https://user-images.githubusercontent.com/39133396/180590527-66a70d0f-c48b-49bb-a2f1-11909c9fd1c2.png">
+  </ol>
+  <hr />
+  <h3>Step 4</h3>
+  <p>Alright if eveything went well in the last step now were going to set up our connection to redis I am running redis on my local machine</p>
+  <h5>Change this string to the correct port and your password for redis if you dont have redis set up use the this link to get it set up for windows.</h5>
+  <br />
+  <a href="https://developer.redis.com/create/windows">Download and set up redis</a>
+  <br />
+  <img width="782" alt="Redis" src="https://user-images.githubusercontent.com/39133396/180590735-d8bbe0f8-552a-41a7-99cd-1218212ff2fb.png">
+  <hr />
+  <h4>Step 5</h3>
+  <p>Almost done... all we need to do now is change the email configuration to match your email. I am using outlook here so if you have one too thats great!</p>
+  <ol>
+    <li>Go to your appsettings.json file and change the email configuration options</li>
+    <img width="934" alt="Emailconfi" src="https://user-images.githubusercontent.com/39133396/180591234-6db4ec8e-5b98-4d14-ad2f-1356740dfc10.png">
+    <li>Then navigate to the EmailManager class located in the data folder and change the from email address to yours and the link variable port number to the port you will be running the app on. This can be found in the launch setting inside the properties folder.</li>
+    <img width="949" alt="EmailManager" src="https://user-images.githubusercontent.com/39133396/180591045-f6eba677-9b09-41ce-b3cf-9c4101739c84.png">
+    <br />
+<img width="949" alt="Luanch" src="https://user-images.githubusercontent.com/39133396/180591314-d6f46dc8-3b1f-4145-9b7d-15a4b78434bf.png">
 
+  </ol>
+  
 </div>
