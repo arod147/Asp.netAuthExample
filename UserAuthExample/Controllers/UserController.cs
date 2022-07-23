@@ -9,7 +9,7 @@ namespace UserAuthExample.Controllers
 
     public class UserController : Controller
     {
-        // Need to not how senstive data
+        // Need to not show senstive data
         // Enter your redis details EX. $"localhost:6379,password=myPassword"
         static readonly ConnectionMultiplexer _redis = ConnectionMultiplexer.Connect($"localhost:6379,password=myPassword"); //Here
 
