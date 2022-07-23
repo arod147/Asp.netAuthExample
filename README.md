@@ -1,4 +1,4 @@
-<h1>What is this?</h1>
+<h1>What is this project?</h1>
 <div>
   <h3>Basic User Authentication using ASP.net MVC</h3>
   <h4>Tools</h4>
