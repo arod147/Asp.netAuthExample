@@ -1,0 +1,20 @@
+﻿@model User
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    @{
+        var obj = Model;
+        if (obj != null && obj.Username != null)
+        // Welcome Logged in user or tell them to login
+        {
+            <h1>Hello @obj.Username</h1>
+        }
+        else
+        {
+            <h1>Please login</h1>
+            <a class="mt-4 btn btn-primary btn-lg" asp-area="" asp-controller="User" asp-action="Login">Login</a>
+        }
+    }
+</div>

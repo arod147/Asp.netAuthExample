@@ -1,0 +1,48 @@
+﻿@model IEnumerable<User>
+@{
+    ViewData["Title"] = "MyUsers";
+}
+<div>
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2 class="text-primary">User List</h2>
+        </div>
+    </div>
+</div>
+
+<table class="table table-bordered table-striped" style="width:100%">
+    <thead>
+        <tr>
+            <th>
+                ID
+            </th>
+            <th>
+                Username
+            </th>
+            <th>
+                Email
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var obj in Model)
+        {
+            <tr>
+                <td width="20%">
+                    @obj.Id
+                </td>
+                <td width="30%">
+                    @obj.Username
+                </td>
+                    @{
+                        var firstFourCharOfEmail = @obj.Email.Substring(0, 3);
+                        var endCharOfEmail = @obj.Email.Substring(obj.Email.LastIndexOf("@") + 1);
+                        var emailDisplay = firstFourCharOfEmail + "********" + endCharOfEmail;
+                        <td width="50%">
+                            @emailDisplay
+                        </td>
+                    }
+            </tr>
+        }
+    </tbody>
+</table>
