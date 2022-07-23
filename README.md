@@ -51,6 +51,6 @@
   <hr />
   <h3>Step 2</h3>
   <p>Make sure you have all these NuGet packages installed.</p>
-  ![Screenshot (16)](https://user-images.githubusercontent.com/39133396/180588710-b5b9fd7a-7628-4194-b87c-be211b6da3a8.png)
+  ![](Image/NuGetPackages)
 
 </div>
