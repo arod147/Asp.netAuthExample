@@ -53,6 +53,7 @@
   <hr />
   <h3>Step 2</h3>
   <p>Make sure you have all these NuGet packages installed.</p>
+  <img width="942" alt="tools" src="https://user-images.githubusercontent.com/39133396/180622558-116cab61-26f7-482e-91eb-33e615f09ce3.png">
   <img width="459" alt="NuGetPackeges" src="https://user-images.githubusercontent.com/39133396/180591148-f8efef97-52ab-44a6-a46a-f67753f41f24.png">
   <hr />
   <h3>Step 3</h3>
