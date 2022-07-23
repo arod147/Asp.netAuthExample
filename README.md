@@ -3,8 +3,8 @@
   <h3>Basic User Authentication using ASP.net MVC</h3>
   <h4>Tools</h4>
   <ul>
-    <li>SSMS (Sql Server Management Studio)</li>
-    <li>Sessions cookies</li>
+    <li>SSMS (SQL Server Management Studio)</li>
+    <li>Session cookies</li>
     <li>Redis</li>
     <li>Entity Frame work</li>
     <li>ASP.net MVC</li>
@@ -13,7 +13,7 @@
   
   <h1>How it works</h1>
   <p>This project shows a basic example of how one might register users, 
-  login them in, verify a user is logged in using session cookies and reset user passwords.
+  login users, verify a user is logged in using session cookies and reset user passwords.
   </p>
   <h3>NOTE that this is just an example and the code above would NOT be used in a live website.<h3/>
   
@@ -24,10 +24,10 @@
     <li>Visual Studio 2022</li>
     <a href="https://visualstudio.microsoft.com/downloads/">Visual Studio Download</a>
     <sub>Get the community version</sub>
-    <li>SSMS (Sql Server Management Studio) & Sql server installed and set up on your device</li>
+    <li>SSMS (Sql Server Management Studio) & SQL server installed and set up on your device</li>
     <a href="https://www.microsoft.com/en-us/sql-server/sql-server-downloads">Downlod sql server</a>
     <a href="https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16">Downlod SSMS</a>
-    <li>Redis installed and set up on your device I have gone ahead a set up the project with redis so just need it running</li>
+    <li>Redis installed and set up on your device I have gone ahead a set up the project with Redis so just need it running</li>
     <a href="https://developer.redis.com/create/windows">Download and set up redis</a>
     <li>Basic understanding of the Entity Frame work</li>
     <a href="https://docs.microsoft.com/en-us/ef/core/get-started/overview/first-app?tabs=netcore-cli">Using Entity</a>
@@ -39,15 +39,15 @@
     <li>Basic C# and OOP (Object-oriented programming) theory</li>
     <a href="https://www.w3schools.com/cs/cs_oop.php">Basic grasp of C# and oop.<a/>
     <br />
-    <sub>You can also just search youtube for tons of great explinations.</sub>
+    <sub>You can also just search YouTube for tons of great explanations.</sub>
     <li>How session cookies work</li>
     <a href="https://docs.microsoft.com/en-us/aspnet/core/fundamentals/app-state?view=aspnetcore-6.0">Session and state management in ASP.NET</a>
   </ul>
-  <p>If you dont meet the above requirments no worries I have provided some links to help you get started. I know it might seem like a lot but trust me when I say these are very basic topics. Researching is a big part of programming and getting used to that and learning how to do this is a key skill to have. :) </p>
+  <p>If you don't meet the above requirments no worries, I have provided some links to help you get started. I know it might seem like a lot but trust me when I say these are very basic topics. Researching is a big part of programming and getting used to that and learning how to do this is a key skill to have. :) </p>
   <hr />
   <h1>Steps</h1>
   <h3>Step 1</h3>
-  <p>Clone this repository into you Visual Sudio IDE</p>
+  <p>Clone this repository into you Visual Studio IDE</p>
   <hr />
   <h3>Step 2</h3>
   <p>Make sure you have all these NuGet packages installed.</p>
@@ -56,9 +56,9 @@
   <h3>Step 3</h3>
   <p>Now we need to change one thing to get our DB connected. After we will create our database and table</p>
   <ol>
-    <li>First lets change our connection string to match your sql server. I just use my local machine to do this. You will change this in the appsetting.json file</li>
+    <li>First let's change our connection string to match your SQL server. I just use my local machine to do this. You will change this in the appsetting.json file</li>
     <img width="968" alt="ConnectionString" src="https://user-images.githubusercontent.com/39133396/180590415-7cda17c1-daf6-4afe-8f21-7818b6541879.png">
-    <li>Next were going to need to use migrations to create our DB and table so lets navigate to the NuGet package console.</li>
+    <li>Next were going to need to use migrations to create our DB and table so let's navigate to the NuGet package console.</li>
     <img width="733" alt="console" src="https://user-images.githubusercontent.com/39133396/180590433-77c6e0ad-830e-449a-8d9e-47a1b2c83320.png">
     <li>Navigate to project folder using this command cd UserAuthExample </li>
     <img width="745" alt="cd" src="https://user-images.githubusercontent.com/39133396/180590445-c2791d36-26f9-4cd4-aaf4-0425fcfd75d5.png">
@@ -70,8 +70,8 @@
   </ol>
   <hr />
   <h3>Step 4</h3>
-  <p>Alright if eveything went well in the last step now were going to set up our connection to redis I am running redis on my local machine. Navigate to the UserController file located in the Controllers folder and 
-  change this string to the correct port and your password for redis if you dont have redis set up use the this link to get it set up for windows.</p>
+  <p>Alright if everything  went well in the last step now were going to set up our connection to Redis. I am running Redis on my local machine. Navigate to the UserController file located in the Controllers folder and 
+  change this string to the correct port and your password for Redis if you don't have Redis set up use this link to get it set up for windows.</p>
 
   <br />
   <a href="https://developer.redis.com/create/windows">Download and set up redis</a>
@@ -79,7 +79,7 @@
   <img width="965" alt="Screenshot (29)" src="https://user-images.githubusercontent.com/39133396/180591810-3abd5470-b3f7-4893-a283-5be526ca2efa.png">
   <hr />
   <h4>Step 5</h3>
-  <p>Almost done... all we need to do now is change the email configuration to match your email. I am using outlook here so if you have one too thats great!</p>
+  <p>Almost done... all we need to do now is change the email configuration to match your email. I am using outlook here so if you have one too that's great!</p>
   <ol>
     <li>Go to your appsettings.json file and change the email configuration options</li>
     <img width="934" alt="Emailconfi" src="https://user-images.githubusercontent.com/39133396/180591234-6db4ec8e-5b98-4d14-ad2f-1356740dfc10.png">
@@ -89,18 +89,18 @@
 <img width="949" alt="Luanch" src="https://user-images.githubusercontent.com/39133396/180591314-d6f46dc8-3b1f-4145-9b7d-15a4b78434bf.png">
   </ol>
   <hr />
-    <h1>Your done!</h1>
-    <p>Run the application and test its features you should be able to to the following</p>
+    <h1>You're done!</h1>
+    <p>Run the application and test its features you should be able to the following</p>
     <ul>
       <li>Login and see your username on the home page.</li>
       <li>Register a new user which will be added to your DB</li>
       <li>If the application is closed the session is cleared</li>
       <li>Log out, which will clear the session and cookies</li>
-      <li>See a list of all you users registerd in your DB on the MyUsers page</li>
-      <li>Reset your password for a user. This feature will send a email with a link to the email address of the provided username. Will use redis to store a token           which will be used to validate the request. This token is ony valid for 3 days. With a valid token we can then update the user password in our DB.</li>
+      <li>See a list of all you users registered in your DB on the MyUsers page</li>
+      <li>Reset your password for a user. This feature will send an email with a link to the email address of the provided username. Will use Redis to store a token           which will be used to validate the request. This token is only valid for 3 days. With a valid token we can then update the user password in our DB.</li>
     </ul>
     <hr />
-    <p>If you have any trouble setting up don't hesitate to message me but I encourage you to try and figure it out if your learning. Running into errors and making mistakes is the best way to learn programming. In the future I might make a video to demo the project</p>
+    <p>If you have any trouble setting up don't hesitate to message me but I encourage you to try and figure it out if you're learning. Running into errors and making mistakes is the best way to learn programming. In the future I might make a video to demo the project</p>
     
     
     
