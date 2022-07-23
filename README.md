@@ -47,7 +47,7 @@
   <hr />
   <h1>Steps</h1>
   <h3>Step 1</h3>
-  <p>Clone this repository into you Visual Studio IDE</p>
+  <p>Clone this repository into your Visual Studio IDE</p>
   <hr />
   <h3>Step 2</h3>
   <p>Make sure you have all these NuGet packages installed.</p>
