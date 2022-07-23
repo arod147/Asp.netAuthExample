@@ -70,12 +70,13 @@
   </ol>
   <hr />
   <h3>Step 4</h3>
-  <p>Alright if eveything went well in the last step now were going to set up our connection to redis I am running redis on my local machine</p>
-  <h5>Change this string to the correct port and your password for redis if you dont have redis set up use the this link to get it set up for windows.</h5>
+  <p>Alright if eveything went well in the last step now were going to set up our connection to redis I am running redis on my local machine. Navigate to the UserController file located in the Controllers folder and 
+  change this string to the correct port and your password for redis if you dont have redis set up use the this link to get it set up for windows.</p>
+
   <br />
   <a href="https://developer.redis.com/create/windows">Download and set up redis</a>
   <br />
-  <img width="782" alt="Redis" src="https://user-images.githubusercontent.com/39133396/180590735-d8bbe0f8-552a-41a7-99cd-1218212ff2fb.png">
+  <img width="965" alt="Screenshot (29)" src="https://user-images.githubusercontent.com/39133396/180591810-3abd5470-b3f7-4893-a283-5be526ca2efa.png">
   <hr />
   <h4>Step 5</h3>
   <p>Almost done... all we need to do now is change the email configuration to match your email. I am using outlook here so if you have one too thats great!</p>
