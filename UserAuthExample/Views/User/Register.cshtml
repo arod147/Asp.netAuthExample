@@ -15,6 +15,14 @@
             <label asp-for="Password"></label>
             <input type="password" asp-for="Password" class="form-control" />
             <span asp-validation-for="Password" class="text-danger"></span>
+            <h4>Password must contain the following</h4>
+                <ul>
+                    <li>One special character. (!#%$^)</li>
+                    <li>One uppercase letter.</li>
+                    <li>One lowercase letter.</li>
+                    <li>One number.</li>
+                    <li>At least 8 characters long</li>
+                </ul>
         </div>
         <div class="mb-3">
             <label asp-for="Email"></label>
