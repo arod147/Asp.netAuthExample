@@ -33,6 +33,7 @@
     <a href="https://docs.microsoft.com/en-us/ef/core/get-started/overview/first-app?tabs=netcore-cli">Using Entity</a>
     <li>Basic understanding ASP.net MVC</li>
     <a href="https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc?WT.mc_id=dotnet-35129-website&view=aspnetcore-6.0&tabs=visual-studio">Docs for Asp.net mvc</a>
+    <br />
     <a href="https://www.youtube.com/watch?v=hZ1DASYd9rk&t=5935s">Video on ASP.mvc and how it works.</a>
     <br />
     <sub>This video explains the concepts pretty well.</sub>
