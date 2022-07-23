@@ -55,6 +55,15 @@
   <p>Make sure you have all these NuGet packages installed.</p>
   <img width="942" alt="tools" src="https://user-images.githubusercontent.com/39133396/180622558-116cab61-26f7-482e-91eb-33e615f09ce3.png">
   <img width="459" alt="NuGetPackeges" src="https://user-images.githubusercontent.com/39133396/180591148-f8efef97-52ab-44a6-a46a-f67753f41f24.png">
+  <h4>If your packages look like this please follow the steps below. if not skip to step 3<h/4>
+  <img width="942" src="https://user-images.githubusercontent.com/39133396/180624731-6a64fd97-349e-496e-9a8c-95c9d16d30cc.png">
+    <ol>
+      <li>click on the setting Icon</li>
+      <img width="756" alt="badpackage" src="https://user-images.githubusercontent.com/39133396/180624813-964cbac5-a6c0-4c42-802f-35d7cf932f0b.png">
+      <b4 />
+      <li>Below window will open write the NuGet details if does not allow to write edit the existing</li>
+      <img width="483" alt="addorg" src="https://user-images.githubusercontent.com/39133396/180624865-18176d18-4b7d-47d9-8eef-4034af535438.png">
+    </ol>
   <hr />
   <h3>Step 3</h3>
   <p>Now we need to change one thing to get our DB connected. After we will create our database and table</p>
