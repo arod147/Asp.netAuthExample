@@ -90,14 +90,14 @@
   </ol>
   <hr />
     <h1>You're done!</h1>
-    <p>Run the application and test its features you should be able to the following</p>
+    <p>Run the application and test its features you should be able to do the following:</p>
     <ul>
       <li>Login and see your username on the home page.</li>
       <li>Register a new user which will be added to your DB</li>
       <li>If the application is closed the session is cleared</li>
       <li>Log out, which will clear the session and cookies</li>
       <li>See a list of all you users registered in your DB on the MyUsers page</li>
-      <li>Reset your password for a user. This feature will send an email with a link to the email address of the provided username. Will use Redis to store a token           which will be used to validate the request. This token is only valid for 3 days. With a valid token we can then update the user password in our DB.</li>
+      <li>Reset your password for a user. This feature will send an email with a link to the email address of the provided username. We will use Redis to store a token           which will be used to validate the request. This token is only valid for 3 days. With a valid token we can then update the user password in our DB.</li>
     </ul>
     <hr />
     <p>If you have any trouble setting up don't hesitate to message me but I encourage you to try and figure it out if you're learning. Running into errors and making mistakes is the best way to learn programming. In the future I might make a video to demo the project</p>
