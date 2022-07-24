@@ -75,6 +75,8 @@
     <img width="733" alt="console" src="https://user-images.githubusercontent.com/39133396/180590433-77c6e0ad-830e-449a-8d9e-47a1b2c83320.png">
     <li>Navigate to project folder using this command cd UserAuthExample </li>
     <img width="745" alt="cd" src="https://user-images.githubusercontent.com/39133396/180590445-c2791d36-26f9-4cd4-aaf4-0425fcfd75d5.png">
+    <li>Instal entity framework using this command dotnet tool install --global dotnet-ef</li>
+    <img width="958" alt="Screenshot (34)" src="https://user-images.githubusercontent.com/39133396/180626595-7aa213a5-fcd9-4381-8639-98ee1eaee2cc.png">
     <li>Create migrations folder and file using this command dotnet ef migrations add User</li>
     <img width="931" alt="mig" src="https://user-images.githubusercontent.com/39133396/180590881-0caccb74-c10c-47ba-8e4b-ef2d3008b08e.png">
     <li>Create database and table using this command dotnet ef database update</li>
